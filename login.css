@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(90deg, purple, rgb(255, 255, 255));
+}
+
+form {
+    margin-left: 550px;
+    margin-top: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(1.2) translateY(-5px);
+    border-radius: 0.2rem;
+    border: none;
+}
+
+button {
+    border-radius: 0.2rem;
+    border: none;
+    box-shadow: 3px 3px 8px;
+}
+
+input {
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+input:hover {
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+h1 {
+    color: pink;
+    text-shadow: 0 0 20px black;
+}
